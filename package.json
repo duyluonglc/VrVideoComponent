@@ -7,13 +7,14 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "react": "15.4.2",
     "prop-types": "15.6.0",
-    "react-native": "0.42.3",
-    "snyk": "^1.88.0"
+    "react-native": "0.59.0",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
